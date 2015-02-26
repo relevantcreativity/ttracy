@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Color Glossary
+
+	White: #ffffff;
+	Gray: #8d8f91;
+	Orange: #f79521;
+	Blue: #6d92c2;
+	Black: #000000;
+
+*/
+
+/* Structure 
+--------------------------------- */
+
+body, input, select, textarea{font-family:Verdana, Geneva, sans-serif;font-size:13px;}
+body {color:#607487;background:url(../images/bkgrd.gif) repeat 0 0;}
+
+#wrapper-top{width:800px;margin:35px auto 0 auto;padding:6px 0 0 0;background:url(../images/wrapper-top.gif) no-repeat 0 top;}
+#wrapper-bottom{width:800px;padding:0 0 6px 0;background:url(../images/wrapper-bottom.gif) no-repeat 0 bottom;}
+#wrapper{width:788px;padding:0 6px;background:url(../images/wrapper-bkgrd.gif) repeat 0 0;}
+
+#header{top:0;left:0;width:788px;height:101px;background:url(../images/header.jpg) no-repeat 0 0;}
+
+#logo{top:19px;left:101px;}
+
+#pics{width:788px;height:101px;padding:17px 0 41px 0;background:url(../images/pics-bkgrd.jpg) no-repeat 0 0;}
+
+#main{width:788px;padding:5px 0 40px 0;margin:0;}
+.content-left{float:left;width:190px;background:url(../images/nav-bkgrd.gif) no-repeat right 0;}
+.content-left ul{margin:0;padding:25px 0 0 0;text-align:right;list-style:none;}
+.content-left ul li{padding:5px 0;}
+.content-left ul li a{color:#607487;font-weight:bold;font-size:16px;display:block;}
+.content-left ul li a:hover,.content-left ul li a.current,.content-left ul li a.currentParent{color:#004f8f;text-decoration:none;}
+
+.content-right{float:right;width:505px;padding:0 30px 30px 30px;border-left:1px solid #607487;}
+
+#footer{width:788px;margin:10px auto 0 auto;font-size:10px;}
+#footer ul{position:absolute;top:0;right:0;margin:0;padding:0;list-style:none;}
+#footer ul li{float:left;}
+#footer ul li a{color:#607487;padding:0 5px;text-decoration:underline;}
+#footer ul li a:hover{color:#33B4F1;text-decoration:none;}
+
+
+/* Headings 
+--------------------------------- */
+
+h1{margin:5px 0 0 0;font-size:22px;border-bottom:1px solid #607487;}
+h2{font-size:16px;margin:10px 0 0 0;}
+h3{font-size:16px;font-weight:normal;font-style:italic;margin:0;}
+h4{font-size:13px;margin:0;}
+h5{font-size:13px;font-style:italic;margin:0;}
+
+
+/* Links 
+--------------------------------- */
+
+a {color:#368eb8;}
+a:hover{text-decoration:underline;}
+
+
+/* Misc 
+--------------------------------- */
+
+label{display:block;font-weight:bold;}
+
+input[type=text], textarea{border:1px solid #8d8f91;background:none;width:300px;color:#8d8f91;}
+input[type=submit]{border:1px solid #8d8f91;background:none;padding:5px 10px;cursor:pointer;color:#8d8f91;}
+input[type=submit]:hover{background:#8d8f91;color:#fff;}
